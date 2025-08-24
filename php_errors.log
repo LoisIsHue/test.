@@ -1,0 +1,18 @@
+[22-Aug-2025 16:08:37 Europe/Berlin] Database connection successful
+[22-Aug-2025 16:10:36 Europe/Berlin] Database connection successful
+[22-Aug-2025 16:10:37 Europe/Berlin] Database connection successful
+[22-Aug-2025 16:10:37 Europe/Berlin] Database connection successful
+[22-Aug-2025 16:11:18 Europe/Berlin] Database connection successful
+[22-Aug-2025 16:11:19 Europe/Berlin] Database connection successful
+[24-Aug-2025 13:33:22 Europe/Berlin] Database connection successful
+[24-Aug-2025 13:33:27 Europe/Berlin] Database connection successful
+[24-Aug-2025 13:33:30 Europe/Berlin] Database connection successful
+[24-Aug-2025 13:33:40 Europe/Berlin] Database connection successful
+[24-Aug-2025 13:33:40 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\extraground\rfptest\view.php:10
+Stack trace:
+#0 C:\xampp\htdocs\extraground\rfptest\view.php(10): mysqli->prepare('SELECT * FROM t...')
+#1 {main}
+  thrown in C:\xampp\htdocs\extraground\rfptest\view.php on line 10
+[24-Aug-2025 13:33:44 Europe/Berlin] Database connection successful
+[24-Aug-2025 13:33:44 Europe/Berlin] PHP Warning:  Undefined array key "justification_hiring" in C:\xampp\htdocs\extraground\rfptest\update.php on line 121
+[24-Aug-2025 13:33:44 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\extraground\rfptest\update.php on line 121
